@@ -1,0 +1,137 @@
+*{
+    padding: none;
+    margin: none;
+    background-color: #111;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    font-family: "Montserrat Alternates", "Poppins", "Roboto";
+}
+.h{
+    width: 100vw;
+}
+.h{
+    padding: 20px;
+}
+.containerFluid{
+    display: flex;
+    flex-direction: row;
+}
+#n_logo{
+    margin: 40px;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 36px;
+    padding-left: 20px;
+    color: white;
+}
+.nb-Nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 60px;
+    width: 100%;
+    margin-top: 40px;
+}
+.n-link{
+    padding-right: 16px;
+    color: white;
+    font-weight: 500;
+}
+.n-link:hover{
+    color: #c4c4c4;
+}
+
+.i{
+    font-family: "poppins";
+}
+.i{
+    display: flex;
+    height: 100vh;
+    
+    color: white;
+}
+.i-left{
+    flex: 1;
+    color: white;
+}
+.i-right{
+    flex: 1;
+    color: white;
+}
+.i-left-wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.i-intro{
+        font-size: 1.5rem;
+        padding-left: 11.25rem;
+        margin-top: 12.5rem;
+        color: white;
+        flex-wrap: wrap;
+}
+.i-name{
+    width: 1100px;
+    padding-left: 11.25rem;
+    font-size: 7em;
+    font-weight: 600;
+    /*Gradient beside this*/
+    background-image: linear-gradient(89.81deg, #A1FF8B -1.72%, #F4426C 54.05%, #11D6E2 99.78%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+}
+.i-resume{
+    width: 1100px;
+    height: auto;
+    font-style: "Montserrat Alternates";
+    font-size: 1.125em;
+    font-weight: 200;
+    line-height: 1.5rem;
+    color: rgba(240, 240, 240, 1);
+    padding-top: 1.8rem;
+    padding-left: 110px;
+    justify-content: center;
+    text-align: justify;
+}
+.i-title{
+    height: 50px;
+    color: white;
+    overflow: hidden;
+}
+.i-title-wrapper{
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+@keyframes move {
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    75%{
+        transform: translateY(-150px);
+    }
+    100%{
+        transform: translateY(-200px);
+    }
+}
+.i-tile-item{
+    height: 50px;
+    font-size: 30px;
+    font-style: oblique;
+    color: #c4c4c4;
+    display: flex;
+    justify-content: center;
+    background-color: #F4426C;
+}
